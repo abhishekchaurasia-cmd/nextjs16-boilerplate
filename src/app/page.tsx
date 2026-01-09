@@ -37,7 +37,7 @@ export default function Home() {
               <div>
                 <h1 className="text-2xl font-bold">Next.js Boilerplate</h1>
                 <p className="text-muted-foreground">
-                  Production Ready Template
+                  Production Ready Templates
                 </p>
               </div>
             </div>
