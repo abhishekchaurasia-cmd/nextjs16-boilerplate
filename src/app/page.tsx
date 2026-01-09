@@ -11,6 +11,13 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 
 export default function Home() {
+  // Intentional unused variable to trigger ESLint error
+  // const unusedVariable = "this variable is not used";
+
+  // Intentional formatting issue to trigger Prettier
+  const someValue = 42;
+  console.log(someValue); // Extra spaces to trigger Prettier
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 p-4">
       <Card className="w-full max-w-lg mx-auto shadow-xl">
@@ -46,3 +53,6 @@ export default function Home() {
     </div>
   );
 }
+
+// Another intentional unused variable
+// const anotherUnusedVar = "also not used";
