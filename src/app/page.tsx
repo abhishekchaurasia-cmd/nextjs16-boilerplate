@@ -45,7 +45,7 @@ export default function Home() {
           </Button>
           <Button variant="outline" asChild>
             <Link href="https://github.com" target="_blank">
-              GitHub
+              GitHub dsdfdsfsd
             </Link>
           </Button>
         </CardFooter>
